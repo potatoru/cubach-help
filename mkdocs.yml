@@ -1,0 +1,30 @@
+site_name: Кубач Minecraft
+theme:
+  name: 'material'
+  language: ru
+  features:
+    - navigation.expand
+    - navigation.sections
+  palette:
+    primary: deep purple
+
+  custom_dir: material
+copyright: <3 Кубач 2012 - 2022. <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">Material for MkDocs</a>.
+extra:
+  generator: false
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - tables
+  - pymdownx.mark
+  - pymdownx.keys
+  - pymdownx.critic
+  - def_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+plugins:
+  - search
+  - awesome-pages

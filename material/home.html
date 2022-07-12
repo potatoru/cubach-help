@@ -1,0 +1,23 @@
+{% extends "main.html" %}
+{% block styles %}
+{{ super() }}
+<style>
+body { background: url('/img/bg2.jpg'); background-position: center center; background-size: cover; }
+.home-content { max-width: 36rem; margin: 0 auto;}
+.home-content h1 { color: white; text-shadow: 0 0 .2rem rgba(33,29,45,.8); font-weight: 700 }
+.home-content p { color: white; text-shadow: 0 0 .2rem rgba(33,29,45,.8); }
+.md-button--discord {
+  background-color: #4051b5;
+  border-color: #4051b5 !important ;
+  color: #ffffff !important ;
+}
+</style>
+{% endblock %}
+{% block header %}
+{% endblock %}
+{% block content %}
+<section class="home-content">
+{{ super() }}
+</section>
+{% endblock %}
+{% block footer %}{% endblock %}
